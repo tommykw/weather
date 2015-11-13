@@ -1,4 +1,4 @@
-package tokyo.tommy_kw.weather
+package tokyo.tommy_kw.weather.view.activity
 
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar
 import android.view.View
 import android.view.Menu
 import android.view.MenuItem
+import tokyo.tommy_kw.weather.R
 
 class ScrollingActivity : AppCompatActivity() {
 
