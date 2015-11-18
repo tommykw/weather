@@ -9,7 +9,13 @@ import com.jakewharton.threetenabp.AndroidThreeTen
 class WeatherApp : Application() {
     override fun onCreate() {
         super.onCreate()
+        val component = initDaggerComponent()
+        //component.inject(this)
         AndroidThreeTen.init(this)
 
+    }
+
+    protected fun initDaggerComponent(): AppComponent {
+        return DaggerApplicationComponent.builder().androidModule(AppModule(this)).build()
     }
 }
