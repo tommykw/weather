@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'org.jetbrains.dokka'
 
 android {
     compileSdkVersion 23
@@ -72,4 +73,7 @@ buildscript {
 }
 repositories {
     mavenCentral()
+}
+
+dokka {
 }
