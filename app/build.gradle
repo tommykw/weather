@@ -40,9 +40,9 @@ dependencies {
     provided 'org.glassfish:javax.annotation:10.0-b28'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    compile 'com.android.support:appcompat-v7:23.1.0'
-    compile 'com.android.support:design:23.1.0'
-    compile 'com.android.support:support-annotations:23.1.0'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:support-annotations:23.1.1'
     compile 'io.reactivex:rxjava:1.0.16'
     compile 'io.reactivex:rxandroid:1.0.1'
     compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
