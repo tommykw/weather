@@ -11,7 +11,7 @@ import javax.inject.Singleton
  * Created by tommy on 15/11/19.
  */
 @Module
-class AppModule(val context: Context) {
+class AppModule(private val context: Context) {
     @Provides
     @Singleton
     fun provideLocationManager(): LocationManager {

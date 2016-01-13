@@ -9,8 +9,8 @@ import javax.inject.Singleton
  */
 @Singleton
 @Component(modules = arrayOf(AppModule::class))
-interface AppComponent {
-    fun inject(sActivity: ScrollingActivity)
+public interface AppComponent {
+    //public fun inject(sActivity: ScrollingActivity)
 }
 
 
